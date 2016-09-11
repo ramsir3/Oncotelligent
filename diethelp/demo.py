@@ -13,12 +13,14 @@ def recurse(t, c, p, f):
                 # print(type(c[key][p[key]]))
                 # print('\n')
 
-patient = json.loads(open(sys.argv[1], 'r').read())
-cancer = json.loads(open(patient["cancer"]+'.json', 'r').read())
+# Patient file provided as console input 
+patientDict = json.loads(open(sys.argv[1], 'r').read())
+# Cancer field of patient file ({A,B,C,D}-Carcinoma.json)
+cancerDict = json.loads(open(patient["cancer"]+'.json', 'r').read())
 
-
-fn = sys.argv[1].split('.')
-report = open("report_" + fn[0] + ".txt", 'w')
-recurse('', cancer, patient, report)
+# Patient name taken from file (Patient-{A,B,C})
+patientName = sys.argv[1].split('.')[0]
+report = open("report_" + patientName + ".txt", 'w')
+recurse('', cancerDict, patientDict, report)
 report.close()
 
