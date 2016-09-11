@@ -1,0 +1,11 @@
+{
+    "cancer" : "D-Carcinoma",
+    "glucose" : "low",
+    "metabolism" : 0,
+    "platlet" : 1,
+    "braf" : 1,
+    "kras" : "krasnegative",
+    "happy" : 1,
+    "not in here" : "haha",
+    "ckit": 1
+}

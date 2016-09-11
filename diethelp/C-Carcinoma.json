@@ -1,0 +1,13 @@
+{
+    "glucose": {
+        "high": {
+            "metabolism": ["eat 2 raspberries daily", "eat 5 raspberries daily", "eat 10 raspberries daily"],
+            "platlet": ["eat 1.5 cup carrots", "eat 1 cup carrots"]
+        },
+        "low": {
+            "metabolism": ["eat 5 raspberries daily", "eat 10 raspberries daily", "eat 15 raspberries daily"],
+            "platlet": ["eat 3 cup carrots", "eat 2 cup carrots"]
+        }
+    },
+    "braf": ["take drug LMN", "take drug OPQ"]
+}

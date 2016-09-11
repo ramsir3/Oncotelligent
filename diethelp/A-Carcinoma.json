@@ -1,0 +1,13 @@
+{
+    "glucose": {
+        "high": {
+            "metabolism": ["eat 2 strawberries daily", "eat 5 strawberries daily", "eat 10 strawberries daily"],
+            "platlet": ["eat 1 cup kale", "don't eat kale"]
+        },
+        "low": {
+            "metabolism": ["eat 5 strawberries daily", "eat 10 strawberries daily", "eat 15 strawberries daily"],
+            "platlet": ["eat 2 cup kale", "don't eat kale"]
+        }
+    },
+    "braf": ["take drug ABC", "take drug DEF"]
+}

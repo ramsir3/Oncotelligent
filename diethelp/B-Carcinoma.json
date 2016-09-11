@@ -1,0 +1,13 @@
+{
+    "glucose": {
+        "high": {
+            "metabolism": ["eat 2 blueberries daily", "eat 5 blueberries daily", "eat 10 blueberries daily"],
+            "platlet": ["eat 1.5 cup kale", "eat 1 cup kale"]
+        },
+        "low": {
+            "metabolism": ["eat 5 blueberries daily", "eat 10 blueberries daily", "eat 15 blueberries daily"],
+            "platlet": ["eat 3 cup kale", "eat 2 cup kale"]
+        }
+    },
+    "braf": ["take drug XYZ", "take drug UVW"]
+}

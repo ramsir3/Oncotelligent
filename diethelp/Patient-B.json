@@ -1,0 +1,7 @@
+{
+    "cancer" : "B-Carcinoma",
+    "glucose" : "low",
+    "metabolism" : 1,
+    "platlet" : 0,
+    "braf" : 0
+}
